@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dex_tab_titles">
+        <item>@string/tab_explorer</item>
+        <item>@string/tab_search</item>
+        <item>@string/tab_strings</item>
+    </string-array>
+</resources>

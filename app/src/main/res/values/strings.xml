@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DexEditorPlus</string>
+    <string name="dex_title">Dex Editor plus</string>
+    <string name="dex_subtitle">Temporary project</string>
+    <string name="tab_explorer">EXPLORER</string>
+    <string name="tab_search">SEARCH</string>
+    <string name="tab_strings">STRINGS</string>
+    <string name="open">PICK .DEX FILE</string>
+    <string name="dex_patch_text">dex patch &lt;/&gt;</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DexEditorPlus" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#303030</item>
+        <item name="colorPrimaryDark">#303030</item>
+        <item name="colorAccent">#42A5F5</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+    </style>
+
+    <style name="ToolbarTitleStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="ToolbarSubtitleStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">#DDDDDD</item>
+    </style>
+
+    <style name="Theme.DexEditorPlus" parent="Base.Theme.DexEditorPlus" />
+
+    <style name="ToolbarMenuTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="actionButtonStyle">@style/ToolbarActionButtonStyle</item>
+    </style>
+
+    <style name="ToolbarActionButtonStyle" parent="Widget.AppCompat.ActionButton">
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+    </style>
+
+    <style name="ToolbarPopupTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:listPreferredItemPaddingStart">16dp</item>
+        <item name="android:listPreferredItemPaddingEnd">16dp</item>
+    </style>
+</resources>

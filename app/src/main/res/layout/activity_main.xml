@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:paddingStart="4dp"
+        android:paddingEnd="12dp"
+        app:contentInsetStartWithNavigation="0dp"
+        app:title="@string/app_name"
+        app:titleTextColor="#FFFFFF"
+        app:titleMarginStart="8dp"
+        app:navigationIcon="@drawable/baseline_arrow_back_24"
+        app:navigationIconTint="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/dexp_t"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/dex_patch_text"
+            android:textSize="20sp"
+            android:maxLines="5"
+            android:ellipsize="end" />
+
+        <Button
+            android:id="@+id/pi_tt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="?attr/colorPrimary"
+            android:text="@string/open"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/pi_t"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="?attr/colorPrimary"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/git_t"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="20dp"
+            android:text="View Source Codes on GitHub"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
