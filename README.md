@@ -16,7 +16,7 @@ logic from the following open-source repositories:
  Dex Editor Plus is a powerful Android application designed to parse Opcode, analyze, and analize class tables from dex class object 
 
 
-| <img src="app/src/main/ic_launcher-playstore.png" width = "30" height = "30" alt="LOGO"/> | [LibGrabber](https://github.com/ispointer/DexEditorPlus) |
+| <img src="app/src/main/ic_launcher-playstore.png" width = "30" height = "30" alt="LOGO"/> | [DexEditorPlus](https://github.com/ispointer/DexEditorPlus) |
 |-------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
 
 ## Screenshots
