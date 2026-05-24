@@ -1,5 +1,5 @@
 <img src="app/src/main/ic_launcher-playstore.png" width = "100" height = "100" alt="LOGO"/>
-# LibGrabber
+# Dex Editor Plus
 
 Dex Editor Plus ( BETA ) is an Android tool designed to edit dex file easily...!
 
