@@ -22,7 +22,7 @@ logic from the following open-source repositories:
 ## Screenshots
 | App UI                                                                 | Tree                                                                    |
 | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| ![App UI](images/im1.jpg) | ![Dump Style](images/im2.jpg) |
+| ![App UI](m.jpg) | ![Tree Style](treeview.jpg) |
 
 ## License
 
